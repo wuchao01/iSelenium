@@ -33,7 +33,8 @@ public class TestBaiDu extends WebUIBase {
 
         //浏览器中打开百度
         logger.info("Open the www.baidu.com");
-        navigation.to("http://www.baidu.com");
+//        navigation.to("http://www.baidu.com");
+        driver.get("https://www.baidu.com");
         wait2s();
 
         //输入搜索内容：Selenium
